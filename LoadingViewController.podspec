@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoadingViewController'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'LoadingViewController is a component for changing controller views: content -> loading -> content or content -> loading -> error.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 LoadingViewController is able to switch from ContentView to LoadingView and then back to ContentView. LoadingView is represented by activity indicators of different types (just a normal UIActivityIndicatorView, spinned circles etc.)
                        DESC
 
-  s.homepage         = 'https://github.com/iSapozhnik/LoadingViewController'
+  s.homepage         = 'https://github.com/mbeloded/LoadingViewController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sapozhnik Ivan' => 'sapozhnik.ivan@gmail.com' }
-  s.source           = { :git => 'https://github.com/iSapozhnik/LoadingViewController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mbeloded/LoadingViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
